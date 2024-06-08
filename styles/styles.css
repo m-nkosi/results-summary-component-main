@@ -1,0 +1,104 @@
+/* Mobile first */
+html {
+    font-size:18px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    /* height:50vh; */
+    border-radius:0 0 30px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    gap:20px;
+}
+.centerText {
+    text-align: center;
+}
+.zeroMargin {
+    margin:0;
+}
+h3 {
+    font-weight: 800;
+}
+h4 {
+    font-weight: 700;
+}
+.greyish {
+    color:hsl(221, 100%, 89%);
+}
+h1 {
+    font-weight: 800;
+    font-size: 3.3rem;
+}
+.whiteText {
+    color:hsl(0, 0%, 100%);
+}
+#circle {
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: black;
+    background: linear-gradient(hsla(256, 72%, 46%,1), hsla(241, 72%, 46%, 0));
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+.score {
+    font-weight: 700;
+    color:hsla(224, 30%, 27%, 0.4);
+}
+#summary {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:30px;
+}
+.summaryScore {
+    display:flex;
+    justify-content: space-between;
+    padding:15px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#pinkish {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color:hsl(0, 100%, 67%);
+}
+#yellowish {
+    background-color:hsla(39, 100%, 56%, 0.1);
+    color:hsl(39, 100%, 56%);
+}
+#greenish {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color:hsl(166, 100%, 37%);
+}
+#navyish {
+    background-color:hsla(234, 85%, 45%, 0.1);
+    color:hsl(234, 85%, 45%);
+}
+button {
+    width:100%;
+    padding:15px 30px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    font-weight: 700;
+}
+.myScore {
+    color: hsl(224, 30%, 27%);
+}
+.outOf {
+    color:hsla(221, 100%, 96%, 0.5);
+    font-weight: 800;
+}
+.details {
+    display: flex;
+    gap: 10px;
+}
+#summaryText {
+    color:hsl(224, 30%, 27%);
+}
